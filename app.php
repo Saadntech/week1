@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Yassir El Halouti's - Resume Registry</title>
+<title>Resume Registry</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
-<h1>Yassir El Halouti's Resume Registry</h1>
+<h1>Resume Registry</h1>
 <p>
 <a href="login.php">Please log in</a>
 </p>

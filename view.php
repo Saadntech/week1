@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Yassir El Halouti's Login Page</title>
+<title>Please Log In</title>
 
 <?php require_once "bootstrap.php"; ?>
 

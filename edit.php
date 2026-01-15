@@ -59,7 +59,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Editing Profile for UMSI</h1>
+    <h1>Editing Profile for EMSI</h1>
     <?php
     if (isset($_SESSION['error']))
     {

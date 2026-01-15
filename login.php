@@ -52,7 +52,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Yassir El Halouti's Login Page</title>
+  <title> Login Page</title>
   <?php require_once "bootstrap.php"; ?>
 </head>
 <body>

@@ -40,12 +40,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Yassir El Halouti's Profile Add</title>
+  <title>Profile Add</title>
   <?php require_once "bootstrap.php"; ?>
 </head>
 <div class="container">
 <body style="font-family: sans-serif;">
-  <h1>Adding Profile for UMSI</h1>
+  <h1>Adding Profile for EMSI</h1>
   <?php
       if (isset($_SESSION['fail']))
       {
