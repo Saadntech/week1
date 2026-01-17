@@ -7,6 +7,11 @@ if (!isset($_SESSION['name'])) {
 
 require_once "pdo.php";
 
+if (isset($_POST['cancel'])) {
+    header('Location: index.php');
+    return;
+}
+
 if (isset($_POST['Delete']) && isset($_POST['profile_id'])) {
     $sql = "DELETE FROM Profile WHERE profile_id = :zip";
     $stmt = $pdo->prepare($sql);

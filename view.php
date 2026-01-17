@@ -16,20 +16,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Please Log In</title>
+<title>Anass Bouziani Resume Registry - Profile</title>
 
 <?php require_once "bootstrap.php"; ?>
 
 </head>
-<<body>
+<body>
 <div class="container">
 
   <h1>Profile information</h1>
-  <p>First Name: <?php echo($row['first_name']); ?></p>
-  <p>Last Name: <?php echo($row['last_name']); ?></p>
-  <p>Email: <?php echo($row['email']); ?></p>
-  <p>Headline:<br/> <?php echo($row['headline']); ?></p>
-  <p>Summary: <br/><?php echo($row['summary']); ?></p>
+  <p>First Name: <?php echo(htmlentities($row['first_name'])); ?></p>
+  <p>Last Name: <?php echo(htmlentities($row['last_name'])); ?></p>
+  <p>Email: <?php echo(htmlentities($row['email'])); ?></p>
+  <p>Headline:<br/> <?php echo(htmlentities($row['headline'])); ?></p>
+  <p>Summary: <br/><?php echo(htmlentities($row['summary'])); ?></p>
   <a href="index.php">Done</a>
 
 </div>

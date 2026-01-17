@@ -62,7 +62,7 @@ if (
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Anass Bouziani ce1b5f6b - Add Profile</title>
+    <title>Anass Bouziani - Add Profile</title>
     <?php require_once "bootstrap.php"; ?>
 
 <script>

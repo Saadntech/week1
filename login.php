@@ -2,7 +2,7 @@
 require_once "pdo.php";
 session_start();
 if (isset($_POST['cancel'])) {
-    header("Location: app.php");
+    header("Location: index.php");
     return;
 }
 
@@ -45,3 +45,23 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 <body>
 <div class="container">
     <h1>Anass Bouziani Resume Registry - Login</h1>
+    <?php
+    if (isset($_SESSION['error'])) {
+        echo('<p style="color: red;">' . htmlentities($_SESSION['error']) . "</p>\n");
+        unset($_SESSION['error']);
+    }
+    ?>
+
+    <form method="post">
+        <p>Email:
+            <input type="text" name="email" size="30"></p>
+        <p>Password:
+            <input type="password" name="pass" size="30"></p>
+        <p>
+            <input type="submit" value="Log In">
+            <input type="submit" name="cancel" value="Cancel">
+        </p>
+    </form>
+</div>
+</body>
+</html>
